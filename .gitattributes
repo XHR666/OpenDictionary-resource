@@ -1,0 +1,7 @@
+* text=auto eol=lf
+
+# 资源哈希文件与 manifest 用 LF，保证跨平台一致
+*.json text eol=lf
+*.sha256 text eol=lf
+
+# 注：git-lfs 未安装；本仓库不启用 LFS（大资源走 Releases）。

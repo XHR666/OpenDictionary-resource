@@ -1,0 +1,37 @@
+{
+  "_note": "示例文件，仅演示字段，勿用于生产。真实清单发布时生成 resource-manifest.json。",
+  "manifest_version": 1,
+  "resource_version": "v0.0.1",
+  "generated_at": "2026-10-21T16:00:00Z",
+  "min_app_version": "0.1.0",
+  "entries": [
+    {
+      "id": "ecdict-core",
+      "kind": "lexicon",
+      "version": "20250328",
+      "license": "MIT",
+      "commercial_ok": true,
+      "source_url": "https://github.com/skywind3000/ECDICT",
+      "path": "lexicon/ecdict.db",
+      "size_bytes": 0,
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "release_tag": "v0.0.1",
+      "optional": false,
+      "note": "体积与哈希需构建后实测填入"
+    },
+    {
+      "id": "oewn-core",
+      "kind": "dict-data",
+      "version": "2024",
+      "license": "CC-BY-4.0",
+      "commercial_ok": true,
+      "source_url": "https://github.com/globalwordnet/english-wordnet",
+      "path": "lexicon/oewn.db",
+      "size_bytes": 0,
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "release_tag": "v0.0.1",
+      "optional": true,
+      "note": "许可待逐文件核实"
+    }
+  ]
+}

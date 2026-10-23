@@ -1,0 +1,30 @@
+{
+  "manifest_version": 1,
+  "entries": [
+    {
+      "id": "restricted-words",
+      "kind": "dict-data",
+      "version": "v1-local",
+      "license": "LicenseRef-ScrapedWordlists",
+      "commercial_ok": false,
+      "consent_required": true,
+      "risk_level": "high",
+      "redistribution_note": "数据抓取自商业 App/网站或上游无许可；本仓库仅作个人/研究用途分发，用户须自行承担风险",
+      "source_url": "local:work/external_restricted",
+      "path": "restricted/lexicon_extras.db",
+      "size_bytes": 9474048,
+      "sha256": "569cc15ed2888af3caebd0ca6b5b192daff8e0d81f93a2a98f2fa517bb0e191e",
+      "release_tag": "v1-local",
+      "optional": true,
+      "tag_counts": {
+        "tem4": 16215,
+        "tem8": 16185,
+        "bec": 2825,
+        "gmat": 3047,
+        "sat": 4463
+      },
+      "entries": 46184,
+      "note": "不进 APK；App 需弹风险确认，用户勾选后才从 Releases 下载"
+    }
+  ]
+}

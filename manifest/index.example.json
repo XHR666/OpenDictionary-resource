@@ -1,0 +1,14 @@
+{
+  "index_version": 1,
+  "updated_at": "2026-10-22T02:00:00Z",
+  "latest": "v3",
+  "previous": "v2",
+  "manifest_url": "https://raw.githubusercontent.com/<owner>/OpenDictionary-resource/main/manifest/resource-manifest-v3.json",
+  "manifest_sha256": "<sha256 of manifest file>",
+  "packs_summary": [
+    {"id": "lexicon-core", "version": "v3", "size_bytes": 190074880, "optional": false},
+    {"id": "gk-phrases", "version": "v3", "size_bytes": 340000, "optional": true},
+    {"id": "restricted-words", "version": "v1", "size_bytes": 9474048, "optional": true,
+     "consent_required": true, "risk_level": "high"}
+  ]
+}
